@@ -45,9 +45,11 @@ Tela inicial com exibição da lista:
 Exibição da funcionalidade de busca por Registro ANS:
 
 ![screenshot](docs/images/print2.png)
+
 ![screenshot](docs/images/print3.png)
 
-Coleções no postman para confirmar o funcionamento das funcionalidades vide item 4.3:
+Coleção no postman para confirmar o funcionamento das funcionalidades vide item 4.3:
 
 ![screenshot](docs/images/postman1.png)
+
 ![screenshot](docs/images/postman2.png)
