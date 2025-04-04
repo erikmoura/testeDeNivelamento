@@ -37,3 +37,7 @@ O código _codigo.sql_ é um script MySQL para construir o banco de dados que re
 
 **Imagens do sistema em execução:**
 
+Tela inicial com exibição da lista:
+
+![screenshot](docs/images/print1.png)
+
