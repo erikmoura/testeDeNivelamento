@@ -23,16 +23,16 @@ O código _tabelas.py_ utiliza dos módulos Fitz (PyMuPdf) e PdfPlumber para ana
 
 Requisitos: _MySQL, configuração do diretório onde estarão alocados os arquivos .csv para construção do banco._
 
-Considerações: Um código em Python (preparacao.py) foi elaborado para automatizar os itens da etapa de preparação. Este código utiliza dos mesmos módulos especificados na descrição da resolução do teste de Web Scraping, possibilitando um download simples e fácil.
+Considerações: Um código em Python (_preparacao.py_) foi elaborado para automatizar os itens da etapa de preparação. Este código utiliza dos mesmos módulos especificados na descrição da resolução do teste de Web Scraping, possibilitando um download simples e fácil.
 
 O código _codigo.sql_ é um script MySQL para construir o banco de dados que receberá os dados extraídos durante a etapa de preparação. O banco de dados apresenta 8 tabelas para armazenar os dados dos trimestres de 2023 e de 2024, além de uma tabela para armazenar os dados do arquivo _Relatorio_cadop.csv_. O script também contém as queries requisitadas pelos itens 3.4 e 3.5, posicionadas ao final do arquivo. Além disso, para melhorar a performance de consultas, foram criados índices para alguns campos das tabelas.
 
 ## API
 
-Ferramentas: _Django e Vue.js._
+Ferramentas: _Django, Vue.js, MySQL._
 
-Requisitos: _npm, node.js, django, vue_
+Requisitos: _npm, node.js, django, vue, configuração do banco de dados no arquivo settings.py (Back)_
 
-Instalação: Ao clonar este repositório, os arquivos necessários para a execução de ambas as aplicações cliente e servidora estarão disponibilizados na pasta API. Na pasta Front, estão os arquivos relacionados ao FrontEnd do projeto, construído com Vue.js. Já na pasta Back, estão os arquivos relacionados ao BackEnd do projeto, construído com Django. Para instalação dos arquivos necessários para execução da aplicação Cliente: 
+Instalação: Ao clonar este repositório, os arquivos necessários para a execução de ambas as aplicações cliente e servidora estarão disponibilizados na pasta API. Na pasta Front, estão os arquivos relacionados ao FrontEnd do projeto, construído com Vue.js. Já na pasta Back, estão os arquivos relacionados ao BackEnd do projeto, construído com Django. Para instalação dos arquivos necessários para execução da aplicação Cliente: no diretório do projeto (Front), execute ``` npm install ```. Depois, ``` npm run dev ```. O projeto estará rodando na porta 5173. Já para a instalação dos requisitos para a aplicação servidora: no diretório do projeto (Back), execute ```pip install django djangorestframework mysqlclient django-cors-headers```.  
 
 
